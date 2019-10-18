@@ -1,7 +1,7 @@
 # WEKO3 selenium test code repository (experimental)
 
-WEKO3(https://github.com/RCOSDP/weko)のためにSeleniumテストコードリポジトリです。
-Selenum IDE(https://www.seleniumhq.org/selenium-ide/)を利用して作成したコードをベースにしています。
+[WEKO3](https://github.com/RCOSDP/weko)のためにSeleniumテストコードリポジトリです。
+[Selenum IDE](https://www.seleniumhq.org/selenium-ide/)が生成したコードをベースにしています。
 
 ## 動かし方
 
@@ -11,11 +11,11 @@ Selenum IDE(https://www.seleniumhq.org/selenium-ide/)を利用して作成した
 pip install selenium
 ```
 
-1. ウェブブラウザドライバを https://www.seleniumhq.org/download/　からダウンロードします。現時点では chromeとfirefox用のコードを用意しています。
+1. ウェブブラウザドライバを[Site](https://www.seleniumhq.org/download/)からダウンロードします。現時点では chromeとfirefox用のコードを用意しています。
 
-2. ダウンロードしたドライバをPATHに含めます。
+3. ダウンロードしたドライバをPATHに含めます。
 
-3. WEKO3のホストアドレスを環境変数に設定します。
+4. WEKO3のホストアドレスを環境変数に設定します。
 
 ```
 export WEKO3_HOST="https://localhost"
